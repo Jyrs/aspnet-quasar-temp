@@ -1,7 +1,7 @@
 <template>
     <div class="weather-component">
         <div v-if="loading" class="loading">
-            Loading... Please refresh once the ASP.NET backend has started.
+            Loading...Please refresh once the ASP.NET backend has started.
         </div>
 
         <div v-if="post" class="content">
